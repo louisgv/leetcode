@@ -13,18 +13,16 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 */
+class ListNode {
+  constructor(val, next){
+    this.val = val
+    this.next = next
+  }
 
-package addtwonumbers
-
-// ListNode is node of linked list
-type ListNode struct {
-	Val  int
-	Next *ListNode
 }
 
-// 解法一，暴力解法
-func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
-	head := ListNode{Val: -1}
+function addTwoNumbers1(l1, l2) {
+	head = 
 	cur := &head
 	carry := 0
 	for l1 != nil && l2 != nil {
